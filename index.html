@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MyUrls</title>
+  <title>Gou URLs</title>
   <link rel="icon" href="//img.znnu.com/favicon.ico" type="image/x-icon">
   <!-- 自建静态资源CDN By ~ Edge One-->
   <link href="//cdnjs.znnu.com/element-ui/2.13.0/theme-chalk/index.css" type="text/css" rel="stylesheet" />
@@ -21,7 +21,7 @@
       <el-header></el-header>
       <el-main>
         <div :class="[isPc ? 'body-center body-width-pc' : 'body-center body-width-mb']">
-          <img width="300" src="//img.znnu.com/myurls/logo.png" @click="goToGayHub">
+          <img width="300" src="//img.scdn.io/i/6a9ebd720354d_1788788082.webp" @click="goToGayHub">
           <el-input ref="long" v-model="longUrl" size="medium" @keyup.enter.native="enterToDoShort">
             <el-button slot="append" icon="el-icon-magic-stick" @click="doShort" :loading="loading"></el-button>
           </el-input>
@@ -35,7 +35,7 @@
   </div>
   
  <script>
-    const repo = 'https://github.com/yionchi'
+    const repo = 'mailto:root@wo.cd'
 
     let app = new Vue({
       el: "#app",
